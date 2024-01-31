@@ -69,7 +69,7 @@ body{
 
   -webkit-tap-highlight-color: transparent;
 
-  max-width: 1600px;
+  max-width: 1580px;
 
   margin: 0 auto;
 
@@ -89,7 +89,7 @@ body{
   color: var(--color);
   position: absolute; /* fixed; */
   left: 6px;
-  top: 10px;
+  top: 12px;
   margin: 10px;
   width: min-content;
   /* border-radius: 5px;
@@ -113,7 +113,7 @@ body{
     position: absolute; /* fixed; */
 
     right: 12px;
-    top: 12px;
+    top: 14px;
     margin: 5px;
     padding-inline: 6px;
     padding-block: 10px;  
@@ -275,8 +275,8 @@ body{
   padding: 2px; 
 
   margin-bottom: 20px;
-  margin-top: 100px;
-  width: calc(100% - 200px);
+  margin-top: 110px;
+  width: calc(100% - 120px);
 
   /* display: grid;
   grid-template-columns: repeat(auto-fit, minmax(calc(min(max(25%, 200px), 380px)), 1fr)); */
