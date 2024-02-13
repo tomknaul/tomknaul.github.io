@@ -69,7 +69,7 @@ body{
 
   -webkit-tap-highlight-color: transparent;
 
-  max-width: 1520px;
+  max-width: 1500px;
 
   margin: 0 auto;
 
@@ -288,14 +288,6 @@ nav {
   margin-top: 180px;
   margin-bottom: 120px;
   animation: fade-in 1s ease;
-
-  @media(max-width: 600px) { 
-    &{
-      height: 1px;
-      margin: 0;
-      font-size: 0;
-    }
-  }
 }
 
 
@@ -303,7 +295,7 @@ nav {
 
 /* image grid */
 .container {
-  columns: calc(5vw + 300px);
+  columns: calc(5vw + 340px);
   gap: 4px;
   padding: 2px; 
 
@@ -520,7 +512,7 @@ footer{
 
 
 
-@media(max-width: 1250px){ 
+@media(max-width: 1100px){ 
   nav{
     position: fixed;
     margin-block: 5px;
@@ -545,6 +537,12 @@ footer{
       /* top: 0px; */
       /* margin: 2px; */
     }
+  }
+
+  .hero-text{
+    height: 1px;
+    margin: 0;
+    font-size: 0;
   }
   .container{
     margin-top: 1px;
