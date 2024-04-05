@@ -300,7 +300,7 @@ nav {
   padding: 2px; 
 
   margin-bottom: 20px;
-  margin-top: 110px;
+  margin-top: 60px;
 
   width: calc(100% - 50px);
 
@@ -374,7 +374,7 @@ button:hover{
 
 
 
-[id^="popover"]{
+/* [id^="popover"]{
 
   border: 0;
   padding: 0;
@@ -396,14 +396,13 @@ button:hover{
     height: 150dvh;
 
     background: rgba(0, 0, 0, .75);
-    /* backdrop-filter: blur(2px); */
     cursor: pointer;
 
   }
   & video, iframe{
     width: 100%;
   }
-}
+} */
 
 
 
@@ -454,7 +453,7 @@ button:hover{
   flex-wrap: wrap;
   align-items: center;
   & div {
-    text-transform: lowercase;
+    /* text-transform: lowercase; */
     display: flex;
   }
 }
@@ -554,9 +553,16 @@ footer{
 
 
 
-
-
-
+.center{
+  margin: auto;
+  padding-bottom: 5%;
+  & img, video {
+    display: block;
+    height: auto;
+    max-width: min(500px, 95vw);
+    padding-top: 10px;
+  }
+}
 
 
 

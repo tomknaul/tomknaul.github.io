@@ -32,7 +32,7 @@ videos.forEach(video => {
     video.autoplay = true;
     video.loop = true;
     video.muted = true;
-    // video.controls = true;
+    video.controls = true;
     // video.preload = "none";
 });
 

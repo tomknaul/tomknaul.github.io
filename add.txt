@@ -16,3 +16,5 @@ put big projects on a page of their own, with some styleframes
 info - 
 - maybe a resume / short timeline 
 - add personality
+
+background in computer science
