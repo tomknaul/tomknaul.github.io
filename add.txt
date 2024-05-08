@@ -1,16 +1,4 @@
-copy mvsm.com grid layout
 like beesandbombs - motion design / generative art
-
-
-
-work - 
-make car lighting tests page like this - https://www.dennistiege.com/work/products/
-
-circle packing - apollonian gasket, Poincaré disk model, copper circles packing, mimic thing, grains
-fold setups
-
-put big projects on a page of their own, with some styleframes
-
 
 
 info - 
