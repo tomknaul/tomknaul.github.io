@@ -1,0 +1,111 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary: rgb(0, 0, 0);
+    --secondary: rgba(0,0,0,.7);
+}
+body {
+    /* background-color: #111; */
+    color: var(--primary);
+    font-family: sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+/* Header & Logo */
+header {
+    padding: 40px;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: -.03em;
+}
+
+/* Main Content */
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 40px 60px 40px;
+    gap: 60px;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--secondary);
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+/* Video Grids */
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 20px;
+}
+
+/* 16:9 Aspect Ratio Wrapper for iframes */
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Footer */
+footer {
+    padding: 30px 40px;
+    font-size: .8rem;
+    color: var(--secondary);
+    text-align: center;
+}
+footer a {
+    color: var(--secondary);
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Imprint Specifics (from original file) */
+.imprint {
+    max-width: 1600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+}
+.imprint h1, .imprint h2, .imprint h3, .imprint h4, .imprint h5, .imprint h6 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-inline: 10px;
+}
+.imprint p {
+    margin-block: 5px;
+    margin-inline: 10px;
+}
